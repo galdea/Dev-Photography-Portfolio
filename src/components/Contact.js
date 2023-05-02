@@ -42,7 +42,7 @@ return (
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                ADDRESS
+                ADDRESS P
               </h2>
               <p className="mt-1">
                 Providencia, <br />
