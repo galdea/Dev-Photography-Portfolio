@@ -17,18 +17,18 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-1 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
+              className="ml-4 inline-flex text-white bg-green-500 border-0 py-1 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              Check my projects
             </a>
             <a
               href="https://www.instagram.com/gab_aldea/" onClick={(e) => {e.preventDefault(); window.open("https://www.instagram.com/gab_aldea/", "_blank")}}
-              className="ml-4 inline-flex text-grey bg-white border-0 py-2 px-2 focus:outline-none hover:bg-grey-600 hover:text-black rounded text-lg">
-              my CV <img src="./cv.png" alt="Instagram Logo" className="ml-3 w-6 h-6"/> 
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              my CV <img src="./cv2.png" alt="Instagram Logo" className="ml-3 w-6 h-6"/> 
             </a>
             </div>
             <div className="flex justify-center my-4">
@@ -53,12 +53,16 @@ export default function About() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./profilepic.jpg"
-          />
-        </div>
+  <img
+    className="object-cover object-center rounded-full h-64 w-64 md:h-96 md:w-96 mb-4gi"
+    alt="hero"
+    src="./profile.jpg"
+  />
+</div>
+
+
+
+
       </div>
     </section>
   );
