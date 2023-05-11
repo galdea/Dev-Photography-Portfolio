@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFile } from '@fortawesome/free-brands-svg-icons'
 
 export default function About() {
   return (
@@ -12,20 +12,44 @@ export default function About() {
             <br className="hidden lg:inline-block" />I love to build amazing
             apps.
           </h1>
-          <FontAwesomeIcon icon={faInstagram} />         
                                <p className="mb-8 leading-relaxed">
           With a passion for software development and a talent for problem-solving, I am a dedicated Full Stack Developer ready to take on new challenges and bring value to your team. Whether it's building innovative apps or improving existing projects, I am committed to delivering high-quality work and exceeding expectations. Contact me today to discuss how I can help drive your business forward.          </p>
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white bg-green-500 border-0 py-1 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               See My Past Work
             </a>
+            <a
+              href="https://www.instagram.com/gab_aldea/" onClick={(e) => {e.preventDefault(); window.open("https://www.instagram.com/gab_aldea/", "_blank")}}
+              className="ml-4 inline-flex text-grey bg-white border-0 py-2 px-2 focus:outline-none hover:bg-grey-600 hover:text-black rounded text-lg">
+              my CV <img src="./cv.png" alt="Instagram Logo" className="ml-3 w-6 h-6"/> 
+            </a>
+            </div>
+            <div className="flex justify-center my-4">
+            <a
+              href="https://www.instagram.com/gab_aldea/" onClick={(e) => {e.preventDefault(); window.open("https://www.instagram.com/gab_aldea/", "_blank")}}
+              className="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              <img src="./Instagram_logo_2016.svg.webp" alt="Instagram Logo" className="w-6 h-6"/> 
+            </a>
+                        <a
+              href="https://www.linkedin.com/in/gabriel-aldea/" onClick={(e) => {e.preventDefault(); window.open("https://www.linkedin.com/in/gabriel-aldea/", "_blank")}}
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              <img src="./LinkedIn_icon.svg.png" alt="Linkedin" className="w-6 h-6"/> 
+            </a>
+            <a
+              href="https://github.com/galdea" onClick={(e) => {e.preventDefault(); window.open("https://github.com/galdea", "_blank")}}
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              <img src="./github-mark-white.png" alt="Linkedin" className="w-6 h-6"/> 
+            </a>
+        
+
+
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
