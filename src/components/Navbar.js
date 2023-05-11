@@ -21,10 +21,9 @@ Gabriel Aldea
           <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a>
-        </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 mr-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center bg-gray-800 border-0 px-3 mr-3 focus:outline-none hover:bg-gray-700 rounded text-base md:mt-0">
           Contact me
           </a>
           <a href="https://www.instagram.com/gab_aldea/" className="mr-5 hover:text-white" onClick={(e) => {e.preventDefault(); window.open("https://www.instagram.com/gab_aldea/", "_blank")}}>
@@ -34,6 +33,7 @@ Gabriel Aldea
 <FontAwesomeIcon icon={faLinkedin} /></a>
 <a href="https://github.com/galdea" className="mr-5 hover:text-white" onClick={(e) => {e.preventDefault(); window.open("https://github.com/galdea", "_blank")}}>
 <FontAwesomeIcon icon={faGithub} /></a>
+</nav>
 
               
 
