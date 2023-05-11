@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default function About() {
   return (
@@ -10,7 +12,8 @@ export default function About() {
             <br className="hidden lg:inline-block" />I love to build amazing
             apps.
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <FontAwesomeIcon icon={faInstagram} />         
+                               <p className="mb-8 leading-relaxed">
           With a passion for software development and a talent for problem-solving, I am a dedicated Full Stack Developer ready to take on new challenges and bring value to your team. Whether it's building innovative apps or improving existing projects, I am committed to delivering high-quality work and exceeding expectations. Contact me today to discuss how I can help drive your business forward.          </p>
           <div className="flex justify-center">
             <a
