@@ -1,5 +1,6 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Navbar() {
   return (
@@ -23,10 +24,19 @@ Gabriel Aldea
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          Hire Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 mr-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          Contact me
+          </a>
+          <a href="https://www.instagram.com/gab_aldea/" className="mr-5 hover:text-white" onClick={(e) => {e.preventDefault(); window.open("https://www.instagram.com/gab_aldea/", "_blank")}}>
+    <FontAwesomeIcon icon={faInstagram} />          
+</a>
+          <a href="https://www.linkedin.com/in/gabriel-aldea/" className="mr-5 hover:text-white" onClick={(e) => {e.preventDefault(); window.open("https://www.linkedin.com/in/gabriel-aldea/", "_blank")}}>
+<FontAwesomeIcon icon={faLinkedin} /></a>
+<a href="https://github.com/galdea" className="mr-5 hover:text-white" onClick={(e) => {e.preventDefault(); window.open("https://github.com/galdea", "_blank")}}>
+<FontAwesomeIcon icon={faGithub} /></a>
+
+              
+
       </div>
     </header>
   );
