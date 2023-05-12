@@ -55,12 +55,12 @@ export const skills = [
   "Python",
   "ReactJS",
   "Flask",
-  "GIT",
+  "Scrum | Kanban | Agile methodologies",
   "SQLAlchemy",
   "HTML | CSS",
   "PostgresSQL",
-  "SEMANTICUI",
+  "BOOTSTRAP | SEMANTICUI | and more",
   "JEST",
-  "BOOTSTRAP",
-  "AI"
+  "AI",
+  "GIT | CodeSpace"
 ];
