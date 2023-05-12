@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
+import Photography from "./components/Photography";
+import PhotographyNavbar from "./components/PhotographyNavbar.js";
 
 export default function App() {
   return (
@@ -14,7 +16,17 @@ export default function App() {
       <Projects />
       <Skills />
       {/* <Testimonials /> */}
+      <Photography />
       <Contact />
     </main>
+  );
+}
+
+function PhotographyPage() {
+  return (
+    <main>
+      {/* <Photography /> */}
+      {/* <PhotographyNavbar /> */}
+      </main>
   );
 }
