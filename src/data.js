@@ -52,10 +52,14 @@ export const testimonials = [
 
 export const skills = [
   "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
-  //Full Stack Developer Jr | JAVASCRIPT | REACTJS | PYTHON | FLASK | SQLALCHEMY | API | JEST | POSTGRESQL | SEMANTICUI | HTML | CSS | BOOTSTRAP
+  "ReactJS",
+  "Python",
+  "Flask",
+  "SQLAlchemy",
+  "PostgresSQL",
+  "JEST",
+  "HTML",
+  "CSS",
+  "SEMANTICUI",
+  "BOOTSTRAP",
 ];
