@@ -24,10 +24,11 @@ export default function About() {
               Check my projects
             </a>
             <a
-              href="https://www.instagram.com/gab_aldea/" onClick={(e) => {e.preventDefault(); window.open("https://www.instagram.com/gab_aldea/", "_blank")}}
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              my CV <img src="./cv2.png" alt="Instagram Logo" className="ml-3 w-6 h-6"/> 
-            </a>
+  href="./Gabriel Aldea Resume.pdf" 
+  download="Gabriel Aldea Resume.pdf"
+  className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+  my CV <img src="./cv2.png" alt="CV Logo" className="ml-3 w-6 h-6"/> 
+</a>
             </div>
             <div className="flex justify-center my-4">
             <a
