@@ -12,10 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
-          </p>
+          As a Full Stack developer, I possess a crucial skill set that allows me to seamlessly navigate through various languages, frameworks and libraries, both in frontend and backend development. Here's a list of indispensable technologies I can fluently communicate with:          </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (

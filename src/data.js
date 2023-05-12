@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "Meyer's Lake Beverage and Drive-Thru",
+    title: "Meyer's Lake Beverage and Drive-thru landing page",
     subtitle: "Landing page for Ohio's favorite Drive-thru",
     description:
-      "Meyer's Lake Beverage and Drive-Thru official landing page using React",
+      "Meyer's Lake Beverage and Drive-Thru official landing page using React. Currently working on new website with backend inventory",
     image: "./project-1.gif",
     link: "https://meyerslakebeverageanddrivethru.netlify.app/",
   },
@@ -24,10 +24,10 @@ export const projects = [
     link: "https://github.com/galdea/Build-a-StarWars-REST-API",
   },   
   {
-    title: "TodoList API",
-    subtitle: "Using Python and Flask, I created To Do list where to write down things that need to get done",
+    title: "To Do List API",
+    subtitle: "Using Python and Flask, I created a To Do list where to write down what needs to get done",
     description:
-      "ToDoList is a React application that allows the user to add, delete, and manage tasks using an API endpoint                                                                ",
+      "To Do List is a React application that allows the user to add, delete, and manage tasks using an API endpoint",
     image: "./project-4.gif",
     link: "https://github.com/galdea/Todo-List-API-with-Python-Flask-Interactive",
   },
@@ -57,4 +57,5 @@ export const skills = [
   "Node",
   "GraphQL",
   "Material UI",
+  //Full Stack Developer Jr | JAVASCRIPT | REACTJS | PYTHON | FLASK | SQLALCHEMY | API | JEST | POSTGRESQL | SEMANTICUI | HTML | CSS | BOOTSTRAP
 ];
