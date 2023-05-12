@@ -52,14 +52,15 @@ export const testimonials = [
 
 export const skills = [
   "JavaScript",
-  "ReactJS",
   "Python",
+  "ReactJS",
   "Flask",
-  "SQLAlchemy",
-  "PostgresSQL",
-  "JEST",
   "HTML",
+  "SQLAlchemy",
   "CSS",
+  "PostgresSQL",
   "SEMANTICUI",
+  "JEST",
   "BOOTSTRAP",
+  "GIT"
 ];
