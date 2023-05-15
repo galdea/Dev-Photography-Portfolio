@@ -15,6 +15,14 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
+  
+    const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+  
+    if (!emailRegex.test(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+  
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -25,7 +33,9 @@ export default function Contact() {
         window.location.reload();
       })
       .catch((error) => alert(error));
-  }  
+  }
+  
+
 
   return (
     <section id="contact" className="relative">
