@@ -1,18 +1,22 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
+import { useTranslation} from "react-i18next"
 
 export default function Skills() {
+
+  const {t, i18n} = useTranslation("global");
+
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Skills &amp; Technologies
+            Skills & Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          As a Full Stack developer, I possess a crucial skill set that allows me to seamlessly navigate through various languages, frameworks and libraries, both in frontend and backend development. Here's a list of indispensable technologies I can fluently communicate with:          </p>
+          {t("skills.description")}</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (

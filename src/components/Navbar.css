@@ -1,0 +1,8 @@
+
+.text-orange {
+    color: orange;
+}
+
+.text-orange:hover {
+    color: white;
+  }
