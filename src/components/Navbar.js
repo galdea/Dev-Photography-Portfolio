@@ -5,6 +5,9 @@ import {
   faLinkedin,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation} from "react-i18next"
+import './Navbar.css'
+
 
 export default function Navbar() {
   function handlePhotographyClick() {
@@ -12,6 +15,7 @@ export default function Navbar() {
     // Redirect to the Photography component
     window.location.href = "/photography";
   }
+  const {t, i18n} = useTranslation("global");
 
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
@@ -24,29 +28,34 @@ export default function Navbar() {
             href="#projects"
             className="mr-5 hover:text-white"
           >
-            Past Work
-          </a>
+{t("navbar.projects")}          </a>
           <a
             href="#skills"
             className="mr-5 hover:text-white"
           >
-            Skills
+{t("navbar.skills")}           </a>
+<a
+  href="https://wwww.gabrielaldeaphotography.netlify.app"
+  target="_blank"
+  className="mr-5 text-orange"
+  style={{ textDecoration: "none" }}
+>
+            {t("navbar.photography")} 
           </a>
-          {/* <a
-            href="/photography"
-            className="mr-5 hover:text-white"
-            onClick={handlePhotographyClick}
-          >
-            Photography
-          </a> */}
         </nav>
         <div className="flex items-center justify-end">
+        <button className="mr-3" onClick={() => i18n.changeLanguage("es")}>
+  <span className="fi fi-es fis rounded-full"></span>
+</button>
+
+<button className="mr-1" onClick={() => i18n.changeLanguage("en")}>
+  <span className="fi fi-us fis rounded-full"></span>
+</button>
           <a
             href="#contact"
             className="inline-flex items-center bg-gray-800 border-0 px-3 mr-3 focus:outline-none hover:bg-gray-700 rounded text-base md:mt-0"
           >
-            Contact me
-          </a>
+{t("navbar.contactme")}           </a>
           <a
             href="https://www.instagram.com/gab_aldea/"
             className="mr-5 hover:text-white"

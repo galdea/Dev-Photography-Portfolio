@@ -8,5 +8,3 @@
     object-fit: cover; /* Scale the image while preserving its aspect ratio */
     object-position: center; /* Center the image within its container */
   }
-
-  
