@@ -6,12 +6,12 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Gabriel.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
-          </h1>
+            Hi, I'm Gabriel </h1>
+          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+A passionate developer with an eye for detail
+          </h2>
                                <p className="mb-8 leading-relaxed">
-"With years of hands-on experience in various roles and my academic studies in a different domain, I bring a unique perspective to software development and the ability to fastly incorporate to your working environment. As a dedicated Full Stack Developer, I have refined my problem-solving skills and developed a passion for creating innovative solutions. My track record of managing teams demonstrates my ability to collaborate effectively and deliver results. I am eager to take on new challenges and deliver high-quality work that exceeds expectations. Let's discuss how I can contribute to your team and help drive your business forward.  </p>        <div className="flex justify-center">
+With years of hands-on experience in various roles and my academic studies in a different domain, I bring a unique perspective to software development and the ability to fastly incorporate to your working environment. As a dedicated Full Stack Developer, I have refined my problem-solving skills and developed a passion for creating innovative solutions. My track record of managing teams demonstrates my ability to collaborate effectively and deliver results. I am eager to take on new challenges and deliver high-quality work that exceeds expectations. Let's discuss how I can contribute to your team and help drive your business forward. </p>        <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
