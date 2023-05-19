@@ -53,7 +53,7 @@ export default function Navbar() {
 </button>
           <a
             href="#contact"
-            className="inline-flex items-center bg-gray-800 border-0 px-3 mr-3 focus:outline-none hover:bg-gray-700 rounded text-base md:mt-0"
+            className="inline-flex items-center bg-gray-700 border-0 px-3 ml-3 mr-4 focus:outline-none hover:bg-gray-800 rounded text-base md:mt-0"
           >
 {t("navbar.contactme")}           </a>
           <a
