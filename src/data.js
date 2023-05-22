@@ -59,7 +59,7 @@ export const skills = [
   "SQLAlchemy",
   "HTML | CSS",
   "PostgresSQL",
-  "BOOTSTRAP | SEMANTICUI | and more",
+  "BOOTSTRAP | SemanticUI | TailwindCSS and more",
   "JEST",
   "AI",
   "GIT | CodeSpace"
