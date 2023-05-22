@@ -35,7 +35,7 @@ export default function Navbar() {
           >
 {t("navbar.skills")}           </a>
 <a
-  href="https://wwww.gabrielaldeaphotography.netlify.app"
+  href="https://gabrielaldeaphotography.netlify.app"
   target="_blank"
   className="mr-5 text-orange"
   style={{ textDecoration: "none" }}
