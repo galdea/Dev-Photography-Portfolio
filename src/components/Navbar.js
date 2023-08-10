@@ -72,8 +72,7 @@ export default function Navbar() {
           // >
           //   <FontAwesomeIcon icon={faLinkedin} />
           // </a>
-              
-          <a 
+                        <a
             href="https://github.com/galdea"
             className="mr-5 hover:text-white"
             rel="noopener noreferrer"
