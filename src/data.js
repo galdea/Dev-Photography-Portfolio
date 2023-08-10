@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Meyer's Lake Beverage and Drive-thru landing page",
-    subtitle: "Landing page for Ohio's favorite Drive-thru",
+    title: "Twitter Clone",
+    subtitle: "Perfect copy of the multibilllion dollar Social Media App ",
     description:
-      "Meyer's Lake Beverage and Drive-Thru official landing page using React. Currently working on new website with backend inventory",
+      "Social media created using Next.js 13, Tailwind CSS, TypeScript, Prisma and Supabase",
     image: "./project-1.gif",
-    link: "https://meyerslakebeverageanddrivethru.netlify.app/",
+    link: "https://github.com/galdea/galdea-Twitter-Clone-using-Next.Js-and-Typescript",
   },
   {
     title: "MeetMeApp",
@@ -24,10 +24,10 @@ export const projects = [
     link: "https://github.com/galdea/Build-a-StarWars-REST-API",
   },   
   {
-    title: "To Do List API",
-    subtitle: "Using Python and Flask, I created a To Do list where to write down what needs to get done",
+    title: "La Cantina SpA",
+    subtitle: "Using a Weather Api and React JS, I built the foundations of what is soon going to be the official website of La Cantina Native Forest Conservation Park",
     description:
-      "To Do List is a React application that allows the user to add, delete, and manage tasks using an API endpoint",
+      "Used a Weather API and configured the elements on it, giving a precise Weather Forecast for a 100Ha Conservation Park",
     image: "./project-4.gif",
     link: "https://github.com/galdea/Todo-List-API-with-Python-Flask-Interactive",
   },
