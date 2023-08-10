@@ -54,7 +54,7 @@ export const skills = [
   "JavaScript",
   "Python",
   "ReactJS",
-  "NextJS"
+  "NextJS",
   "Flask",
   "Scrum | Kanban | Agile methodologies",
   "SQLAlchemy",
@@ -63,6 +63,6 @@ export const skills = [
   "BOOTSTRAP | SemanticUI | TailwindCSS and more",
   "JEST",
   "AI",
-  "GIT | CodeSpace"
+  "GIT | CodeSpace",
 "Netlify | Supabase"
 ];
