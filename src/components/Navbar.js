@@ -72,15 +72,6 @@ export default function Navbar() {
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          // <a
-          //   href="https://www.linkedin.com/in/gabriel-aldea/"
-          //   className="mr-5 hover:text-white"
-          //   rel="noopener noreferrer"
-          //   target="_blank"
-          // >
-          //   <FontAwesomeIcon icon={faLinkedin} />
-          // </a>
-
         </div>
       </div>
     </header>
