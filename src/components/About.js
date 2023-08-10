@@ -45,11 +45,6 @@ export default function About() {
               className="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               <img src="./Instagram_logo_2016.svg.webp" alt="Instagram Logo" className="w-6 h-6"/> 
             </a>
-                        <a
-              href="https://www.linkedin.com/in/gabriel-aldea/" onClick={(e) => {e.preventDefault(); window.open("https://www.linkedin.com/in/gabriel-aldea/", "_blank")}}
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              <img src="./LinkedIn_icon.svg.png" alt="Linkedin" className="w-6 h-6"/> 
-            </a>
             <a
               href="https://github.com/galdea" onClick={(e) => {e.preventDefault(); window.open("https://github.com/galdea", "_blank")}}
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
