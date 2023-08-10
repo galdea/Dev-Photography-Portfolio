@@ -64,6 +64,14 @@ export default function Navbar() {
           >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
+          <a
+            href="https://github.com/galdea"
+            className="mr-5 hover:text-white"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
           // <a
           //   href="https://www.linkedin.com/in/gabriel-aldea/"
           //   className="mr-5 hover:text-white"
@@ -72,14 +80,7 @@ export default function Navbar() {
           // >
           //   <FontAwesomeIcon icon={faLinkedin} />
           // </a>
-                        <a
-            href="https://github.com/galdea"
-            className="mr-5 hover:text-white"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
+
         </div>
       </div>
     </header>
