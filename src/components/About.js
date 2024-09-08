@@ -6,7 +6,7 @@ export default function About() {
 
   const getCVFileName = () => {
     return i18n.language === "es"
-      ? "Gabriel Aldea CV.pdf"
+      ? "Gabriel Aldea Resume.pdf"
       : "Gabriel Aldea Resume.pdf";
   };
 
