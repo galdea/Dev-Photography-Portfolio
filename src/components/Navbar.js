@@ -35,9 +35,9 @@ export default function Navbar() {
           >
 {t("navbar.skills")}           </a>
 <a
-  href="https://www.gabrielaldeaphotography.com"
+  href="https://gabrielaldeaphotography.vercel.app"
   target="_blank"
-  className="mr-5 text-orange"
+  className="mr-5 text-white hover:text-gray"
   style={{ textDecoration: "none" }}
 >
             {t("navbar.photography")} 
