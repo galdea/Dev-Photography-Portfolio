@@ -26,7 +26,7 @@ const Portfolio = () => {
       websiteUrl: 'https://antonioelizalde.cl',
       videoName: 'Antonio Elizalde Photography',
       videoDescription:
-        'Website created for Antonio Elizalde, featuring APIs to access private drives containing images and extensive malacology data, facilitating seamless research and collaboration in the field of mollusk studies.',
+        'Website created for Antonio Elizalde, featuring APIs to access private drives containing images, publications and extensive malacology data, facilitating seamless research and collaboration in the field of mollusk studies.',
     },
   ];
 
