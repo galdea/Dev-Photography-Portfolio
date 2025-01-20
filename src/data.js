@@ -1,68 +1,70 @@
 export const projects = [
   {
-    title: "Twitter Clone",
-    subtitle: "Perfect copy of the multibilllion dollar Social Media App ",
+    title: 'Twitter Clone',
+    subtitle: 'Perfect copy of the multibilllion dollar Social Media App ',
     description:
-      "Social media created using Next.js 13, Tailwind CSS, TypeScript, Prisma and Supabase",
-    image: "./project-1.gif",
-    link: "https://github.com/galdea/galdea-Twitter-Clone-using-Next.Js-and-Typescript",
+      'Social media created using Next.js 13, Tailwind CSS, TypeScript, Prisma and Supabase',
+    image: './project-1.gif',
+    link: 'https://github.com/galdea/galdea-Twitter-Clone-using-Next.Js-and-Typescript',
   },
   {
-    title: "MeetMeApp",
-    subtitle: "Complete FullStack app, using JS, React, Python, Flask, PostgresSQL, etc ",
+    title: 'MeetMeApp',
+    subtitle:
+      'Complete FullStack app, using JS, React, Python, Flask, PostgresSQL, etc ',
     description:
-      "App with usernames login, authentification tokens, create/join/delete events, firebase Chat implementation and much more                                                  ",
-    image: "./project-2.gif",
-    link: "https://github.com/galdea/MeetMeUp",
+      'App with usernames login, authentification tokens, create/join/delete events, firebase Chat implementation and much more                                                  ',
+    image: './project-2.gif',
+    link: 'https://github.com/galdea/MeetMeUp',
   },
   {
-    title: "Star Wars Library",
-    subtitle: "A Star Wars universe library built with front and back end",
+    title: 'Star Wars Library',
+    subtitle: 'A Star Wars universe library built with front and back end',
     description:
-      "A Star Wars universe library of characters, vehicles and planets fetching 2 APIs, one for data and one for image rendering                                                 ",
-    image: "./project-3.gif",
-    link: "https://github.com/galdea/Build-a-StarWars-REST-API",
-  },   
+      'A Star Wars universe library of characters, vehicles and planets fetching 2 APIs, one for data and one for image rendering                                                 ',
+    image: './project-3.gif',
+    link: 'https://github.com/galdea/Build-a-StarWars-REST-API',
+  },
   {
-    title: "La Cantina SpA",
-    subtitle: "Using a Weather Api and React JS, I built the foundations of what is soon going to be the official website of La Cantina Native Forest Conservation Park",
+    title: 'La Cantina SpA',
+    subtitle:
+      'Using a Weather Api and React JS, I built the foundations of what is soon going to be the official website of La Cantina Native Forest Conservation Park',
     description:
-      "Used a Weather API and configured the elements on it, giving a precise Weather Forecast for a 100Ha Conservation Park",
-    image: "./project-4.gif",
-    link: "https://github.com/galdea/Todo-List-API-with-Python-Flask-Interactive",
+      'Used a Weather API and configured the elements on it, giving a precise Weather Forecast for a 100Ha Conservation Park',
+    image: './project-4.gif',
+    link: 'https://github.com/galdea/Todo-List-API-with-Python-Flask-Interactive',
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+    image: 'https://randomuser.me/api/portraits/men/1.jpg',
+    name: 'Jesse Hicks',
+    company: 'Zoozle',
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+    image: 'https://randomuser.me/api/portraits/men/94.jpg',
+    name: 'Ruben Alvarez',
+    company: 'Dooble.io',
   },
 ];
 
 export const skills = [
-  "JavaScript",
-  "Python",
-  "ReactJS",
-  "NextJS",
-  "Flask",
-  "Scrum | Kanban | Agile methodologies",
-  "SQLAlchemy",
-  "HTML | CSS",
-  "PostgresSQL | MongoDB",
-  "BOOTSTRAP | SemanticUI | TailwindCSS and more",
-  "JEST",
-  "AI",
-  "GIT | CodeSpace",
-"Netlify | Supabase"
+  'JavaScript',
+  'Python',
+  'ReactJS',
+  'NextJS',
+  'Flask',
+  'Scrum | Kanban | Agile methodologies',
+  'SQLAlchemy',
+  'HTML | CSS',
+  'PostgresSQL | MongoDB',
+  'BOOTSTRAP | SemanticUI | TailwindCSS and more',
+  'JEST',
+  'AI',
+  'GIT | CodeSpace',
+  'Netlify | Supabase',
 ];
