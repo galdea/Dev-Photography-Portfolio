@@ -65,6 +65,23 @@ const Portfolio = () => {
           Last three websites I've built{' '}
         </p>
       </div>
+      {/* Carousel Controls */}
+      <div className="carousel-controls mb-8">
+        {videoLinks.map((_, index) => (
+          <button
+            key={index}
+            className={`carousel-button ${
+              index === currentIndex ? 'active' : ''
+            }`}
+            style={{
+              zIndex: 1000,
+            }}
+            onClick={() => handleClick(index)}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
       {/* Video Name and Description */}
       <div
         className="video-carousel"
@@ -105,20 +122,7 @@ const Portfolio = () => {
               }}
             ></iframe>
           </a>
-          {/* Carousel Controls */}
-          <div className="carousel-controls">
-            {videoLinks.map((_, index) => (
-              <button
-                key={index}
-                className={`carousel-button ${
-                  index === currentIndex ? 'active' : ''
-                }`}
-                onClick={() => handleClick(index)}
-              >
-                {index + 1}
-              </button>
-            ))}
-          </div>
+
           <div className="video-info">
             <a
               href={videoLinks[currentIndex].websiteUrl}
