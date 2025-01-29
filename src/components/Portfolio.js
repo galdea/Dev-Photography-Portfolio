@@ -10,7 +10,7 @@ const Portfolio = () => {
       websiteUrl: 'https://australescapes.com',
       videoName: 'Austral Escapes',
       videoDescription:
-        'Website created for a Patagonian tourist agency, targeting American and Canadian travelers, offering curated tour packages',
+        'Website created for a Patagonian tourist agency, targeting American and Canadian travelers, offering curated tour packages.',
     },
     {
       videoUrl:
@@ -18,7 +18,7 @@ const Portfolio = () => {
       websiteUrl: 'https://europeanhobeessociety.org',
       videoName: 'European Hobbes Society',
       videoDescription:
-        'Website created for the European Hobbes Society, dedicated to promoting scholarly research and discussion on the philosophy of Thomas Hobbes, fostering a community of academics and students worldwide',
+        'Website created for the European Hobbes Society, promoting scholarly research and discussion on Thomas Hobbes, fostering a community of academics worldwide.',
     },
     {
       videoUrl:
@@ -26,7 +26,7 @@ const Portfolio = () => {
       websiteUrl: 'https://antonioelizalde.cl',
       videoName: 'Antonio Elizalde Photography',
       videoDescription:
-        'Website created for Antonio Elizalde, featuring APIs to access private drives containing images, publications and extensive malacology data, facilitating seamless research and collaboration in the field of mollusk studies.',
+        'Website created for scholar Antonio Elizalde, featuring APIs to access private drives containing publications and extensive malacology data, facilitating research and collaboration in the academic studies.',
     },
   ];
 
