@@ -80,23 +80,13 @@ const Portfolio = () => {
         ))}
       </div>
       {/* Video Name and Description */}
-      <div
-        className="video-carousel"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '80vh', // Cover the viewport height
-        }}
-      >
+      <div className="video-carousel">
         <div
           className="video-container "
           style={{
             position: 'relative',
             width: '100%',
-            height: '100%',
-            justifyContent: 'center',
-            alignItems: 'center',
+            height: '60vh', // Cover the viewport height
           }}
         >
           <a
@@ -152,7 +142,6 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      ...
       <style jsx>{`
         .responsive-video {
           position: absolute;
@@ -200,19 +189,13 @@ const Portfolio = () => {
 
         h1 {
           font-size: 1.5rem;
-          color: white;
+          color: rgb(16, 185, 129);
           margin-bottom: 0.5rem;
         }
 
         h2 {
           font-size: 1rem;
           color: white;
-        }
-
-        /* Carousel Controls */
-        .carousel-controls {
-          justify-content: center;
-          width: 100%;
         }
 
         .carousel-button {
