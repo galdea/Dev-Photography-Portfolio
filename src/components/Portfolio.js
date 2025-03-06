@@ -115,7 +115,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      ...
+
       <style jsx>{`
         .responsive-video {
           top: 0; /* Adjust the top position */
@@ -153,7 +153,7 @@ const Portfolio = () => {
         }
 
         .video-info:hover {
-          transform: translateX(-50%) scale(1.1);
+          transform: translateX(-50%) scale(0.9);
         }
 
         h1 {
@@ -176,7 +176,7 @@ const Portfolio = () => {
           margin: 0 5px;
           cursor: pointer;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          transition: background-color 0.3s ease, transform 0.3s ease;
+          transition: background-color 0.4s ease, transform 0.3s ease;
         }
 
         .carousel-button:hover {
@@ -189,7 +189,6 @@ const Portfolio = () => {
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
       `}</style>
-      ...
     </div>
   );
 };
