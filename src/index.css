@@ -27,6 +27,8 @@
     z-index: 10;
     transition: transform 0.3s ease, box-shadow 0.3s ease,
       background-color 0.3s ease;
+    padding: 20px 20px;
+
     color: rgb(16, 185, 129);
     border-radius: 20px;
     background-color: rgb(31, 41, 55, 0.6); /* Added background color */
