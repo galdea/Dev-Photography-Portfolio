@@ -15,7 +15,7 @@ const Portfolio = () => {
     {
       videoUrl:
         'https://www.youtube.com/embed/umQhd0LE2Y0?autoplay=1&modestbranding=1&controls=0&showinfo=0&rel=0&iv_load_policy=3&fs=0&mute=1',
-      websiteUrl: 'https://europeanhobeessociety.org',
+      websiteUrl: 'https://europeanhobbessociety.squarespace.com/',
       videoName: 'European Hobbes Society',
       videoDescription:
         'Website created for the European Hobbes Society, promoting scholarly research and discussion on Thomas Hobbes, fostering a community of academics worldwide.',
@@ -26,7 +26,7 @@ const Portfolio = () => {
       websiteUrl: 'https://antonioelizalde.cl',
       videoName: 'Antonio Elizalde Photography',
       videoDescription:
-        'Website created for scholar Antonio Elizalde, featuring APIs to access private drives containing publications and extensive malacology data, facilitating research and collaboration in the academic studies.',
+        'Website created for scholar Antonio Elizalde, featuring APIs to access private drives containing publications and extensive malacology data, facilitating research and collaboration in academic studies.',
     },
   ];
 
