@@ -152,47 +152,61 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-
+      ...
       <style jsx>{`
-      .responsive-video {
+        .responsive-video {
           position: absolute;
           left: 10%;
-
         }
 
         /* Mobile screen styles */
         @media (max-width: 768px) {
           .responsive-video {
+            top: 50%;
+            left: 50%;
             width: 100%;
+            height: 60%;
+          }
+
+          .video-info {
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease,
+              background-color 0.3s ease;
+            color: rgb(16, 185, 129);
+            padding: 10px 20px;
+            border-radius: 5px;
           }
         }
 
         .video-info {
           bottom: 1%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-  color: rgb(16,185,129);
-  padding: 10px 20px;
-  border-radius: 5px;
-}
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          transition: transform 0.3s ease, box-shadow 0.3s ease,
+            background-color 0.3s ease;
+          color: rgb(16, 185, 129);
+          padding: 10px 20px;
+          border-radius: 5px;
+        }
 
-.video-info:hover {
-  transform: translateX(-50%) scale(1.1);
-}
-
+        .video-info:hover {
+          transform: translateX(-50%) scale(1.1);
+        }
 
         h1 {
           font-size: 1.5rem;
-          color: white
+          color: white;
           margin-bottom: 0.5rem;
         }
 
         h2 {
           font-size: 1rem;
-          color: white
+          color: white;
         }
 
         /* Carousel Controls */
