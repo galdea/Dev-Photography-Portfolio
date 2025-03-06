@@ -52,7 +52,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="container px-5 mx-auto text-center lg:px-40 pb-10">
+    <div className="container px-5 mx-auto text-center lg:px-40 pb-10 ">
       <div className="flex flex-col w-full mb-8">
         <CodeIcon className="mx-auto inline-block w-10 mb-4" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
@@ -115,10 +115,9 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-
+      ...
       <style jsx>{`
         .responsive-video {
-          top: 0; /* Adjust the top position */
           left: 50%;
           transform: translate(-50%, 0); /* Adjust the transform */
           width: 80%;
@@ -129,11 +128,10 @@ const Portfolio = () => {
         @media (max-width: 768px) {
           .responsive-video {
             width: 100%;
-            height: auto;
+            height: 60vh; /* Adjust the height for mobile */
           }
           .video-info {
             margin-top: 5px; /* Reduce the margin-top for mobile */
-            margin-bottom: 10px; /* Reduce the margin-bottom for mobile */
           }
         }
 
@@ -168,12 +166,11 @@ const Portfolio = () => {
         }
 
         .carousel-button {
-          bottom: 5%;
           background-color: rgb(31, 41, 55);
           border: none;
           border-radius: 50%;
           padding: 10px;
-          margin: 0 5px;
+          margin: 0 10px 10px;
           cursor: pointer;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
           transition: background-color 0.4s ease, transform 0.3s ease;
@@ -189,6 +186,7 @@ const Portfolio = () => {
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
       `}</style>
+      ...
     </div>
   );
 };
