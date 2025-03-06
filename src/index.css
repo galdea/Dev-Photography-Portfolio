@@ -3,8 +3,90 @@
 @tailwind utilities;
 
 .project-image {
-    width: 100%; /* Set the width to 100% to fill the container */
-    height: 250px; /* Set a fixed height for all images */
-    object-fit: cover; /* Scale the image while preserving its aspect ratio */
-    object-position: center; /* Center the image within its container */
+  width: 100%; /* Set the width to 100% to fill the container */
+  height: 250px; /* Set a fixed height for all images */
+  object-fit: cover; /* Scale the image while preserving its aspect ratio */
+  object-position: center; /* Center the image within its container */
+}
+
+.responsive-video {
+  position: absolute;
+  left: 10%;
+}
+
+/* Mobile screen styles */
+@media (max-width: 768px) {
+  .responsive-video {
+    width: 100%;
   }
+  .video-info {
+    width: 100%;
+    bottom: 1%;
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 10;
+    transition: transform 0.3s ease, box-shadow 0.3s ease,
+      background-color 0.3s ease;
+    color: rgb(16, 185, 129);
+    border-radius: 20px;
+    background-color: rgb(31, 41, 55, 0.6); /* Added background color */
+  }
+}
+
+@media (min-width: 768px) {
+  .video-info {
+    bottom: 1%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 10;
+    transition: transform 0.3s ease, box-shadow 0.3s ease,
+      background-color 0.3s ease;
+    color: rgb(16, 185, 129);
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: rgb(31, 41, 55); /* Added background color */
+  }
+}
+
+.video-info:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+/* Carousel Controls */
+.carousel-controls {
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-button {
+  bottom: 5%;
+  background-color: rgb(31, 41, 55);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow to buttons */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.carousel-button:hover {
+  background-color: rgba(255, 255, 255, 1); /* Button hover effect */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.carousel-button.active {
+  background-color: rgb(71, 86, 132);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow for active button */
+}
