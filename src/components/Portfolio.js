@@ -15,7 +15,7 @@ const Portfolio = () => {
     {
       videoUrl:
         'https://www.youtube.com/embed/umQhd0LE2Y0?autoplay=1&modestbranding=1&controls=0&showinfo=0&rel=0&iv_load_policy=3&fs=0&mute=1',
-      websiteUrl: 'https://europeanhobbessociety.squarespace.com/',
+      websiteUrl: 'https://europeanhobeessociety.org',
       videoName: 'European Hobbes Society',
       videoDescription:
         'Website created for the European Hobbes Society, promoting scholarly research and discussion on Thomas Hobbes, fostering a community of academics worldwide.',
@@ -26,7 +26,7 @@ const Portfolio = () => {
       websiteUrl: 'https://antonioelizalde.cl',
       videoName: 'Antonio Elizalde Photography',
       videoDescription:
-        'Website created for scholar Antonio Elizalde, featuring APIs to access private drives containing publications and extensive malacology data, facilitating research and collaboration in academic studies.',
+        'Website created for scholar Antonio Elizalde, featuring APIs to access private drives containing publications and extensive malacology data, facilitating research and collaboration in the academic studies.',
     },
   ];
 
@@ -66,16 +66,13 @@ const Portfolio = () => {
         </p>
       </div>
       {/* Carousel Controls */}
-      <div className="carousel-controls mb-8">
+      <div className="carousel-controls">
         {videoLinks.map((_, index) => (
           <button
             key={index}
             className={`carousel-button ${
               index === currentIndex ? 'active' : ''
             }`}
-            style={{
-              zIndex: 1000,
-            }}
             onClick={() => handleClick(index)}
           >
             {index + 1}
@@ -93,7 +90,7 @@ const Portfolio = () => {
         }}
       >
         <div
-          className="video-container"
+          className="video-container "
           style={{
             position: 'relative',
             width: '100%',
@@ -108,7 +105,7 @@ const Portfolio = () => {
             rel="noopener noreferrer"
           >
             <iframe
-              className="responsive-video"
+              className="responsive-video "
               src={videoLinks[currentIndex].videoUrl}
               title={`Video ${currentIndex + 1}`}
               frameBorder="0"
@@ -116,11 +113,31 @@ const Portfolio = () => {
               onEnded={onVideoEnd}
               onClick={onIframeClick}
               style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
                 width: '80%',
-                height: '80%',
                 borderRadius: '10px',
               }}
             ></iframe>
+            <style jsx>{`
+              .responsive-video {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 80%;
+                height: 100%;
+                border-radius: 10px;
+              }
+
+              @media (max-width: 768px) {
+                .responsive-video {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            `}</style>
           </a>
 
           <div className="video-info">
@@ -156,7 +173,6 @@ const Portfolio = () => {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  z-index: 10;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   color: rgb(16,185,129);
   padding: 10px 20px;

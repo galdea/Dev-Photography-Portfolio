@@ -9,46 +9,37 @@
   object-position: center; /* Center the image within its container */
 }
 
-.responsive-video {
-  position: absolute;
-  left: 10%;
-}
-
 /* Mobile screen styles */
 @media (max-width: 768px) {
-  .responsive-video {
-    width: 100%;
-  }
   .video-info {
     width: 100%;
-    bottom: 1%;
-    position: absolute;
     transform: translateX(-50%);
-    z-index: 10;
     transition: transform 0.3s ease, box-shadow 0.3s ease,
       background-color 0.3s ease;
-    padding: 20px 20px;
-
     color: rgb(16, 185, 129);
     border-radius: 20px;
     background-color: rgb(31, 41, 55, 0.6); /* Added background color */
+  }
+
+  iframe {
+    margin-bottom: 10px; /* Adjust margin to move iframe closer to carousel buttons */
+  }
+
+  .carousel-controls {
+    margin-top: 10px; /* Adjust margin to move carousel buttons closer to iframe */
   }
 }
 
 @media (min-width: 768px) {
   .video-info {
-    bottom: 1%;
-    position: absolute;
-    left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    z-index: 10;
     transition: transform 0.3s ease, box-shadow 0.3s ease,
       background-color 0.3s ease;
     color: rgb(16, 185, 129);
-    padding: 20px 20px;
     border-radius: 20px;
-    background-color: rgb(31, 41, 55); /* Added background color */
+    background-color: rgb(31, 41, 55, 0.6); /* Added background color */
+    position: absolute;
   }
 }
 
@@ -69,6 +60,7 @@ h2 {
 .carousel-controls {
   justify-content: center;
   width: 100%;
+  padding-bottom: 20px !important;
 }
 
 .carousel-button {
