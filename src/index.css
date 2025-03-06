@@ -11,16 +11,6 @@
 
 /* Mobile screen styles */
 @media (max-width: 768px) {
-  .video-info {
-    width: 100%;
-    transform: translateX(-50%);
-    transition: transform 0.3s ease, box-shadow 0.3s ease,
-      background-color 0.3s ease;
-    color: rgb(16, 185, 129);
-    border-radius: 20px;
-    background-color: rgb(31, 41, 55, 0.6); /* Added background color */
-  }
-
   iframe {
     margin-bottom: 10px; /* Adjust margin to move iframe closer to carousel buttons */
   }
@@ -28,23 +18,6 @@
   .carousel-controls {
     margin-top: 10px; /* Adjust margin to move carousel buttons closer to iframe */
   }
-}
-
-@media (min-width: 768px) {
-  .video-info {
-    transform: translateX(-50%);
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease,
-      background-color 0.3s ease;
-    color: rgb(16, 185, 129);
-    border-radius: 20px;
-    background-color: rgb(31, 41, 55, 0.6); /* Added background color */
-    position: absolute;
-  }
-}
-
-.video-info:hover {
-  transform: translateX(-50%) scale(1.1);
 }
 
 h1 {

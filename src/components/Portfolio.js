@@ -2,7 +2,6 @@ import { CodeIcon } from '@heroicons/react/solid';
 import React, { useEffect, useState } from 'react';
 
 const Portfolio = () => {
-  // Define video details including name and description with website URL
   const videoLinks = [
     {
       videoUrl:
@@ -45,27 +44,24 @@ const Portfolio = () => {
   };
 
   const onVideoEnd = () => {
-    // When the video ends, move to the next video
     setCurrentIndex((prevIndex) => (prevIndex + 1) % videoLinks.length);
   };
 
   const onIframeClick = () => {
-    // Switch to the next video when the iframe is clicked (without pausing)
     setCurrentIndex((prevIndex) => (prevIndex + 1) % videoLinks.length);
   };
 
   return (
-    <div className="container px-5  mx-auto text-center lg:px-40">
+    <div className="container px-5 mx-auto text-center lg:px-40 pb-10">
       <div className="flex flex-col w-full mb-8">
         <CodeIcon className="mx-auto inline-block w-10 mb-4" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-          Portfolio{' '}
+          Portfolio
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          Last three websites I've built{' '}
+          Last three websites I've built
         </p>
       </div>
-      {/* Carousel Controls */}
       <div className="carousel-controls">
         {videoLinks.map((_, index) => (
           <button
@@ -79,15 +75,10 @@ const Portfolio = () => {
           </button>
         ))}
       </div>
-      {/* Video Name and Description */}
       <div className="video-carousel">
         <div
-          className="video-container "
-          style={{
-            position: 'relative',
-            width: '100%',
-            height: '60vh', // Cover the viewport height
-          }}
+          className="video-container"
+          style={{ position: 'relative', width: '100%', height: '60vh' }}
         >
           <a
             href={videoLinks[currentIndex].websiteUrl}
@@ -95,7 +86,7 @@ const Portfolio = () => {
             rel="noopener noreferrer"
           >
             <iframe
-              className="responsive-video "
+              className="responsive-video"
               src={videoLinks[currentIndex].videoUrl}
               title={`Video ${currentIndex + 1}`}
               frameBorder="0"
@@ -111,25 +102,7 @@ const Portfolio = () => {
                 borderRadius: '10px',
               }}
             ></iframe>
-            <style jsx>{`
-              .responsive-video {
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 80%;
-                height: 100%;
-                border-radius: 10px;
-              }
-
-              @media (max-width: 768px) {
-                .responsive-video {
-                  width: 100%;
-                  height: auto;
-                }
-              }
-            `}</style>
           </a>
-
           <div className="video-info">
             <a
               href={videoLinks[currentIndex].websiteUrl}
@@ -142,45 +115,41 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      ...
       <style jsx>{`
         .responsive-video {
-          position: absolute;
-          left: 10%;
+          top: 0; /* Adjust the top position */
+          left: 50%;
+          transform: translate(-50%, 0); /* Adjust the transform */
+          width: 80%;
+          height: 100%;
+          border-radius: 10px;
         }
 
-        /* Mobile screen styles */
         @media (max-width: 768px) {
           .responsive-video {
-            top: 50%;
-            left: 50%;
             width: 100%;
-            height: 60%;
+            height: auto;
           }
-
           .video-info {
-            bottom: 10%;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease,
-              background-color 0.3s ease;
-            color: rgb(16, 185, 129);
-            padding: 10px 20px;
-            border-radius: 5px;
+            margin-top: 5px; /* Reduce the margin-top for mobile */
+            margin-bottom: 10px; /* Reduce the margin-bottom for mobile */
           }
         }
 
         .video-info {
-          bottom: 1%;
-          position: absolute;
+          position: relative;
           left: 50%;
           transform: translateX(-50%);
           text-align: center;
           transition: transform 0.3s ease, box-shadow 0.3s ease,
             background-color 0.3s ease;
-          color: rgb(16, 185, 129);
           padding: 10px 20px;
-          border-radius: 5px;
+          width: 80%;
+          background-color: rgba(31, 41, 55, 0.6);
+          margin-top: 10px;
+          margin-bottom: 20px;
+          top: 80%;
         }
 
         .video-info:hover {
@@ -206,20 +175,21 @@ const Portfolio = () => {
           padding: 10px;
           margin: 0 5px;
           cursor: pointer;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow to buttons */
-          transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          transition: background-color 0.3s ease, transform 0.3s ease;
         }
 
         .carousel-button:hover {
-          background-color: rgba(255, 255, 255, 1); /* Button hover effect */
-          transform: scale(1.1); /* Slightly enlarge on hover */
+          background-color: rgba(255, 255, 255, 1);
+          transform: scale(1.1);
         }
 
         .carousel-button.active {
           background-color: rgb(71, 86, 132);
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow for active button */
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
       `}</style>
+      ...
     </div>
   );
 };

@@ -7,7 +7,10 @@ export default function Projects() {
   const { t, i18n } = useTranslation('global');
 
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section
+      id="projects"
+      className="text-gray-400 bg-gray-900 body-font mt-10"
+    >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
